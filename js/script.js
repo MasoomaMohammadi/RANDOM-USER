@@ -1,9 +1,8 @@
 import { testomonail } from "./user.js";
 
 let photo = document.getElementById("img");
-let myname = document.getElementById("myname");
-let fulltname = document.getElementById("fulltname");
-let icons = document.getElementById("icons");
+let myName = document.getElementById("myname");
+let fullName = document.getElementById("fullname");
 let randomUser = document.getElementById("random-user");
 
 ///icons
@@ -18,8 +17,9 @@ let iconJob = document.getElementById("job");
 let mytestimonail;
 function setValue(index) {
   mytestimonail = testomonail[index];
-  myname.innerHTML= mytestimonail.myname;
-  fulltname.innerHTML = mytestimonail.fname;
+  console.log(mytestimonail.myname )  
+  myName.innerHTML= mytestimonail.myname;
+  fullName.innerHTML = mytestimonail.fname;
   photo.src = mytestimonail.img;
 };
 
@@ -32,36 +32,35 @@ function random() {
   return Math.floor(Math.random() * testomonail.length)
 }
 
-
 // icons 
 iconAge.addEventListener('click', function () {
-  myname.innerHTML = 'My age is';
-  fulltname.innerHTML = mytestimonail.age;
+  myName.innerHTML = 'My age is';
+  fullName.innerHTML = mytestimonail.age;
 });
 
 iconEmail.addEventListener('click', function () {
-  myname.innerHTML = 'My email is';
-  fulltname.innerHTML = mytestimonail.email;
+  myName.innerHTML = 'My email is';
+  fullName.innerHTML = mytestimonail.email;
 });
 
 iconPassword.addEventListener('click', function () {
-  myname.innerHTML = 'My password is';
-  fulltname.innerHTML = mytestimonail.password;
+  myName.innerHTML = 'My password is';
+  fullName.innerHTML = mytestimonail.password;
 });
 
 iconPhone.addEventListener('click', function () {
-  myname.innerHTML = 'My phone is';
-  fulltname.innerHTML = mytestimonail.phone;
+  myName.innerHTML = 'My phone is';
+  fullName.innerHTML = mytestimonail.phone;
 });
 
 iconJob.addEventListener('click', function () {
-  myname.innerHTML = 'My job is';
-  fulltname.innerHTML = mytestimonail.job;
+  myName.innerHTML = 'My job is';
+  fullName.innerHTML = mytestimonail.job;
 });
 
 iconFullname.addEventListener('click', function () {
-  myname.innerHTML = 'My name is';
-  fulltname.innerHTML = mytestimonail.fname;
+  myName.innerHTML = 'My name is';
+  fullName.innerHTML = mytestimonail.fname;
 });
 
 
