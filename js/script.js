@@ -17,15 +17,14 @@ let iconJob = document.getElementById("job");
 let mytestimonail;
 function setValue(index) {
   mytestimonail = testomonail[index];
-  console.log(mytestimonail.myname )  
   myName.innerHTML= mytestimonail.myname;
   fullName.innerHTML = mytestimonail.fname;
   photo.src = mytestimonail.img;
 };
 
 randomUser.addEventListener('click', function () {
-  let nunmber = random();
-  setValue(nunmber);
+  let number = random();
+  setValue(number);
 })
 
 function random() {
