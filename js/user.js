@@ -2,7 +2,7 @@ export const testomonail = [
   {
     id: 1,
     myname:'My name is',
-    fname: 'Ji-Yeon',
+    fname: 'Ji Yeon',
     img: 'images/person-7.jpeg',
     phone: '0786516303',
     job: 'Web developer',
@@ -13,7 +13,7 @@ export const testomonail = [
   {
     id: 2,
     myname:'My name is',
-    fname: 'Hye-Won',
+    fname: 'Hye Won',
     img: 'images/person-6.jpeg',
     phone: '078172072',
     job: 'Business woman',
@@ -24,7 +24,7 @@ export const testomonail = [
   {
     id: 3,
     myname:'My name is',
-    fname: 'Soo-Jin',
+    fname: 'Soo Jin',
     img: 'images/person-5.jpeg',
     phone: '0787969878',
     job: 'Web developer',
@@ -35,7 +35,7 @@ export const testomonail = [
   {
     id: 5,
     myname:'My name is',
-    fname: 'Yoo-Jin',
+    fname: 'Yoo Jin',
     img: 'images/person-3.jpeg',
     phone: '0705094878',
     job: 'Bass',
@@ -46,7 +46,7 @@ export const testomonail = [
   {
     id: 7,
     myname:'My name is',
-    fname: 'Ji-Hye',
+    fname: 'Ji Hye',
     img: 'images/person-1.jpeg',
     phone: '8596-569805034',
     job: 'We developer',
