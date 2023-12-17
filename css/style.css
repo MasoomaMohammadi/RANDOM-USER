@@ -6,8 +6,8 @@ body {
 }
 
 .container {
-  width:350px;
-  height:480px;
+  width:300px;
+  height:450px;
   background-color:#eeee;
   border-radius:12px;
   padding:20px;
@@ -22,7 +22,7 @@ body {
 #icons {
   display: flex;
   justify-content: center;
-  gap:36px;
+  gap:28px;
   color:#B49FA7;
 }
 
