@@ -6,8 +6,8 @@ body {
 }
 
 .container {
-  width:400px;
-  height:500px;
+  width:350px;
+  height:480px;
   background-color:#eeee;
   border-radius:12px;
   padding:20px;
@@ -15,6 +15,7 @@ body {
   margin-left:auto;
   margin-right:auto;
   align-items: center;
+  text-align:center;
   box-shadow:1px 2px 6px 1px #040108;
 }
 
