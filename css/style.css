@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  width:450px;
+  width:400px;
   height:500px;
   background-color:#eeee;
   border-radius:12px;
@@ -21,7 +21,7 @@ body {
 #icons {
   display: flex;
   justify-content: center;
-  gap:50px;
+  gap:36px;
   color:#B49FA7;
 }
 
@@ -35,8 +35,8 @@ body {
 }
 
 img {
-  white:200px;
-  height:200px;
+  white:180px;
+  height:180px0px;
   border-radius: 50%;
   object-fit: cover;
   margin: auto;
